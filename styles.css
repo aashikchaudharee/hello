@@ -1,0 +1,89 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #fffdfb, #51aff6);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background: #ef38a6;
+    color: white;
+    padding: 50px 20px;
+    animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+section {
+   .center-img {
+  display: block; /* Makes the image a block-level element */
+  margin-left: auto; /* Centers the image horizontally */
+  margin-right: auto; /* Centers the image horizontally */
+  width: 80%; /* Optional: set a width smaller than the container */
+}
+
+}
+
+#countdown {
+    background: #67f041;
+    border-radius: 10px;
+}
+
+.gallery {
+    display: flex;
+    overflow: hidden;
+    width: 80%;
+}
+
+.gallery img {
+    width: 80%;
+    transition: transform 0.5s;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.event {
+    background: #f4f3f3;
+    margin: 50px;
+    padding: 20px;
+    border-radius:20px;
+    width: 60%;
+}
+
+#messages {
+    background: #87edf2;
+    border-radius: 10px;
+}
+
+#messageList {
+    margin-bottom: 20px;
+}
+
+button {
+    background: #fcde1b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ff5252;
+}
+
+footer {
+    background: #333;
+    color: white;
+    padding: 20px;
+}
